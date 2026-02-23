@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration form using function prototype</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./static/image/GUVI-Artboard-–-4.png" alt="Logo" height="40"
+                    class="d-inline-block align-text-top">
+            </a>
+            Registration Form
+        </div>
+    </nav>
+
+    <div class="container m-4">
+        <div class="row">
+            <div class="col-md-5">
+                <h5 class="text-center bg-light text-dark p-2">Register your details</h5>
+
+                <form id="registerform">
+                    <div class="form-group">
+                        <input type="text" class="form-control mb-3" name="name" id="name"
+                            placeholder="Enter your name">
+                    </div>
+                    <hr>
+                    <div class="form-group">
+                        <input type="email" class="form-control mb-3" name="email" id="email"
+                            placeholder="Enter your mail id">
+                    </div>
+                    <hr>
+                    <div class="form-group">
+                        <input type="number" class="form-control mb-3" name="aadhar" id="aadhar"
+                            placeholder="Enter your aadhar no">
+                    </div>
+                    <hr>
+                    <div class="form-check form-check-inline mb-3">
+                        <input type="radio" class="form-check-input" name="type" id="male" value="Male">
+                        <label for="form-check-lable">Male</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" name="type" id="female" value="Female">
+                        <label for="form-check-lable">Female</label>
+                    </div>
+                     <div class="d-grid gap-2">
+                    <button class=" btn btn-success">Submit</button>
+                </div>
+                </form>
+            </div>
+            <div class="col-md-7">
+                <div id="alertmessage"></div>
+                    <h5 class="text-center bg-light text-dark p-2">
+                        View Details
+                    </h5>
+
+                    <div class="row">
+                        <div class="col-md-7"></div>
+                        <div class="col-md-5">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search"
+                                    aria-label="Search" />
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                    <br>
+
+                    <table class="table table-success">
+                        <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Aadhar</th>
+                                <th scope="col">Gender</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+
+                        </tbody>
+                    </table>
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="./static/script6.js"></script>
+</body>
+
+</html>
