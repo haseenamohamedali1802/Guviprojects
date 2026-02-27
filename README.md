@@ -82,7 +82,6 @@ React.js, Redux, Node.js, Express.js, MongoDB, Django REST Framework
 React.js, Node.js, Express.js, MongoDB, Socket.io
 
 ---
-
 ## Mini Projects (13+)
 
 - Gym Website (Responsive UI)
